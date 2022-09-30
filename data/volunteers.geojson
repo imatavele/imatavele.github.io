@@ -1,0 +1,852 @@
+var volunteers = {
+    "type": "FeatureCollection",
+    "name": "volunteers",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        //Pemba
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Abdala Inaque",
+                "agency": "UNHCR",
+                "photo": "image/volunteers/Abdala Inaque_UNHCR_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Anito Mauricio",
+                "agency": "WFP",
+                "photo": "image/volunteers/Anito Mauricio_WFP_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Bento Lade",
+                "agency": "WFP",
+                "photo": "image/volunteers/Bento Lade_WFP_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Manuel Paulino",
+                "agency": "WFP",
+                "photo": "image/volunteers/Manuel Paulino - WFP_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Antumane Saide",
+                "agency": "WFP",
+                "photo": "image/volunteers/Antumane Saide_WFP_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Geraldo Luis",
+                "agency": "WFP",
+                "photo": "image/volunteers/Geraldo Luis_WFP_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Jamal Faque",
+                "agency": "WFP",
+                "photo": "image/volunteers/Jamal Faque_WFP_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Issa Mwalu",
+                "agency": "WFP",
+                "photo": "image/volunteers/Issa Mwalu_WFP_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Iatima Quintino",
+                "agency": "WFP",
+                "photo": "image/volunteers/Iatima Quintino_WFP_Pemba.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Helder Mugauanha",
+                "agency": "UNHCR",
+                "photo": "image/volunteers/Helder Mugauanha_UNHCR_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        //Maputo
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Cheong Kang",
+                "agency": "WFP",
+                "photo": "image/volunteers/Cheong Kang WFP Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Laura Baram",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Laura-Baram_UNDP_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Lissungu Mazula",
+                "agency": "UNICEF",
+                "photo": "image/volunteers/Lissungu Mazula_UNICEF_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Naima Magaio",
+                "agency": "UNICEF",
+                "photo": "image/volunteers/Naima Magaio_UNICEF_Maputo.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Serena Gonfiantini",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Serena Gonfiantini_UNDP_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Abdul Rahimo",
+                "agency": "UNOCHA",
+                "photo": "image/volunteers/Abdul Rahimo_UNOCHA_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Andres Panera",
+                "agency": "UNRCO",
+                "photo": "image/volunteers/Andres Panera_UNRCO_Mapuo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Antonio Massuque",
+                "agency": "UNV",
+                "photo": "image/volunteers/Antonio Massuque_UNV_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Anand",
+                "agency": "UNICEF",
+                "photo": "image/volunteers/Anand _UNICEF_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Joelma Pereira",
+                "agency": "WHO",
+                "photo": "image/volunteers/Joelma Pereira_WHO_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Iracema Juali",
+                "agency": "OHCHR",
+                "photo": "image/volunteers/Iracema Juali - OHCHR_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Lusia Chilusse",
+                "agency": "UNOPS",
+                "photo": "image/volunteers/Lusia Chilusse_UNOPS_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Mika Iwaoka",
+                "agency": "FAO",
+                "photo": "image/volunteers/Mika Iwaoka_FAO_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Noemia Langa",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Noemia Langa_UNDP_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Sidónio Matusse",
+                "agency": "UNESCO",
+                "photo": "image/volunteers/Sidónio Matusse_UNCESCO_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Tangeni Haimbala",
+                "agency": "UNDC",
+                "photo": "image/volunteers/Tangeni HAIMBALA_UNODC_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Crescencia Nhamue",
+                "agency": "UNFPA",
+                "photo": "image/volunteers/Crescencia Nhamue_UNFPA_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Clara dos Santos",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Clara dos Santos_UNDP_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Chris Fumo",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Chris Fumo_UNDP_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Celia Melice",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Celia Melice_UNDP_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Carmen Pereira",
+                "agency": "UNFPA",
+                "photo": "image/volunteers/Carmen Pereira_UNFPA_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Carlos Nhambire",
+                "agency": "WFP",
+                "photo": "image/volunteers/Carlos Nhambire_WFP_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Yasser Omar",
+                "agency": "UNOPS",
+                "photo": "image/volunteers/Digital Foto Yasser Omar_UNOPS_Maputo.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Domingos Micas",
+                "agency": "UNICEF",
+                "photo": "image/volunteers/Domingos Micas_UNICEF_Maputo.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Dulce Saranga",
+                "agency": "UNV",
+                "photo": "image/volunteers/Dulce Saranga_UNV_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Elga Chipanga",
+                "agency": "OHCHR",
+                "photo": "image/volunteers/Elga Chipanga_OHCHR_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Ellen Van Uytvanck",
+                "agency": "UNCDF",
+                "photo": "image/volunteers/Ellen Van Uytvanck_UNCDF_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Emerencia Eversson",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Emerencia Eversson_UNDP_Maputo.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Emmanuel Munatsi",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Emmanuel Munatsi_UNDP_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Garrido Cuambe",
+                "agency": "UNICEF",
+                "photo": "image/volunteers/Garrido Cuambe_UNICEF_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Wilson Phiri",
+                "agency": "UNICEF",
+                "photo": "image/volunteers/Wilson Phiri_ UNICEF_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Valdo Estevao",
+                "agency": "UNDP",
+                "photo": "image/volunteers/Valdo Estevao_UNDP_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342 - 4/111, -25.961702934293783 - 2/111 ] }
+        },
+        //Nampula
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Nampula", 
+                "province": "Nampula",
+                "volunteer": "Abel Cossa",
+                "agency": "WFP",
+                "photo": "image/volunteers/Abel Cossa_WFP_Nampula.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 39.262639826423751, -15.103445344263704 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Nampula", 
+                "province": "Nampula",
+                "volunteer": "Jacinto Elias",
+                "agency": "UNICEF",
+                "photo": "image/volunteers/Jacinto Elias_UNICEF_Nampula.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 39.262639826423751, -15.103445344263704 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Nampula", 
+                "province": "Nampula",
+                "volunteer": "Jose Marques",
+                "agency": "UNHCR",
+                "photo": "image/volunteers/Jose Marques_UNHCR_Nampula.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 39.262639826423751, -15.103445344263704 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Nampula", 
+                "province": "Nampula",
+                "volunteer": "Artemisa Mole",
+                "agency": "WFP",
+                "photo": "image/volunteers/Artemisa Mole_WFP_Nampula.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 39.262639826423751, -15.103445344263704 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Nampula", 
+                "province": "Nampula",
+                "volunteer": "Felismina Tauzane",
+                "agency": "UNHCR",
+                "photo": "image/volunteers/Felismina Tauzane_UNHCR_Nampula.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 39.262639826423751, -15.103445344263704 ] }
+        },
+        //Chimoio
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Chimoio", 
+                "province": "Manica",
+                "volunteer": "Job Silva",
+                "agency": "WFP",
+                "photo": "image/volunteers/Job Silva-WFP_Chimoio.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.455891295881329, -19.128023967034046 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Chimoio", 
+                "province": "Manica",
+                "volunteer": "Luis Mavie",
+                "agency": "WFP",
+                "photo": "image/volunteers/Luis Mavie_WFP_Chimoio.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.455891295881329, -19.128023967034046 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Chimoio", 
+                "province": "Manica",
+                "volunteer": "Aly Adamo",
+                "agency": "WFP",
+                "photo": "image/volunteers/Aly Adamo_WFP_Chimoio.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.455891295881329, -19.128023967034046 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Chimoio", 
+                "province": "Manica",
+                "volunteer": "Farisai Gamariel",
+                "agency": "UNFPA",
+                "photo": "image/volunteers/Farisai Gamariel _UNFPA_Chimoio.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.455891295881329, -19.128023967034046 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Chimoio", 
+                "province": "Manica",
+                "volunteer": "Joao Jose Antonio",
+                "agency": "WFP",
+                "photo": "image/volunteers/Joao Jose Antonio_WFP_Chimoio.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.455891295881329, -19.128023967034046 ] }
+        },
+        //Beira
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Beira", 
+                "province": "Sofala",
+                "volunteer": "Sonia Pascoal",
+                "agency": "WFP",
+                "photo": "image/volunteers/Sonia Pascoal_WFP Beira.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 34.932666090767441, -19.717231231196354 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Beira", 
+                "province": "Sofala",
+                "volunteer": "Jemima Manhica",
+                "agency": "WFP",
+                "photo": "image/volunteers/Jemima Manhica_WFP Beira.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 34.932666090767441, -19.717231231196354 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Beira", 
+                "province": "Sofala",
+                "volunteer": "Elidio Zunguze",
+                "agency": "WFP",
+                "photo": "image/volunteers/Elidio Zunguze_WFP Beira.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 34.932666090767441, -19.717231231196354 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Beira", 
+                "province": "Sofala",
+                "volunteer": "Joao da Costa",
+                "agency": "UNOPS",
+                "photo": "image/volunteers/Joao da Costa_ UNOPS_Beira.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 34.932666090767441, -19.717231231196354 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Beira", 
+                "province": "Sofala",
+                "volunteer": "Liendina Chririndza",
+                "agency": "UNICEF",
+                "photo": "image/volunteers/Liendina Chririndza_UNICEF_Beira.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 34.932666090767441, -19.717231231196354 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Beira", 
+                "province": "Sofala",
+                "volunteer": "Ana Machina",
+                "agency": "WFP",
+                "photo": "image/volunteers/Ana Machina_WFP_Sofala.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 34.932666090767441, -19.717231231196354 ] }
+        },
+        //Tete
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Tete", 
+                "province": "Tete",
+                "volunteer": "Ema Aristides",
+                "agency": "WFP",
+                "photo": "image/volunteers/Ema Aristides WFP Tete.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.566782528153894, -16.139720831179719 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Tete", 
+                "province": "Tete",
+                "volunteer": "Juliasse Estiveni",
+                "agency": "WFP",
+                "photo": "image/volunteers/Juliasse Estiveni_WFP Tete.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.566782528153894, -16.139720831179719 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Tete", 
+                "province": "Tete",
+                "volunteer": "Amelia Abel",
+                "agency": "WFP",
+                "photo": "image/volunteers/Amelia Abel WFP Tete.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.566782528153894, -16.139720831179719 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Tete", 
+                "province": "Tete",
+                "volunteer": "Anibal Jequessene",
+                "agency": "WFP",
+                "photo": "image/volunteers/Anibal Jequessene_WFP_Tete.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.566782528153894, -16.139720831179719 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Tete", 
+                "province": "Tete",
+                "volunteer": "Paulo Perezo",
+                "agency": "WFP",
+                "photo": "image/volunteers/Paulo Perezo_WFP_Tete.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.566782528153894, -16.139720831179719 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Tete", 
+                "province": "Tete",
+                "volunteer": "Telmo Calege",
+                "agency": "WFP",
+                "photo": "image/volunteers/Telmo Calege_WFP_Tete.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.566782528153894, -16.139720831179719 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Tete", 
+                "province": "Tete",
+                "volunteer": "Sheila Zimba",
+                "agency": "WFP",
+                "photo": "image/volunteers/Sheila Zimba_WFP_Tete.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.566782528153894, -16.139720831179719 ] }
+        },
+        //Quelimane
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Quelimane", 
+                "province": "Zambezia",
+                "volunteer": "Ramos Cassimo",
+                "agency": "WFP",
+                "photo": "image/volunteers/Ramos Cassimo WFP Quelimane.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 36.915137052463258, -17.861755576335508 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Quelimane", 
+                "province": "Zambezia",
+                "volunteer": "Julio Coloun",
+                "agency": "WFP",
+                "photo": "image/volunteers/Julio Coloun_WFP Quelimane.jpeg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 36.915137052463258, -17.861755576335508 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Quelimane", 
+                "province": "Zambezia",
+                "volunteer": "Clarecio Malauene",
+                "agency": "WFP",
+                "photo": "image/volunteers/Clarecio Malauene_WFP Quelimane.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 36.915137052463258, -17.861755576335508 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Quelimane", 
+                "province": "Zambezia",
+                "volunteer": "Danylo Nobre",
+                "agency": "WFP",
+                "photo": "image/volunteers/Danylo Nobre_WFP_Quelimane.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 36.915137052463258, -17.861755576335508 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Quelimane", 
+                "province": "Zambezia",
+                "volunteer": "Armindo Machele",
+                "agency": "WFP",
+                "photo": "image/volunteers/Armindo Machel_WFP_Sofala.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 36.915137052463258, -17.861755576335508 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Quelimane", 
+                "province": "Zambezia",
+                "volunteer": "Gervasio Gouveia",
+                "agency": "WFP",
+                "photo": "image/volunteers/Gervasio Gouveia_WFP_Quelimane.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 36.915137052463258, -17.861755576335508 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Quelimane", 
+                "province": "Zambezia",
+                "volunteer": "Tania Carimo",
+                "agency": "WFP",
+                "photo": "image/volunteers/Tania Carimo_WFP_Quelimane.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 36.915137052463258, -17.861755576335508 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Quelimane", 
+                "province": "Zambezia",
+                "volunteer": "Sebastiao Jo",
+                "agency": "WFP",
+                "photo": "image/volunteers/Sebastiao Jo_WFP_Quelimane.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 36.915137052463258, -17.861755576335508 ] }
+        },
+        //Xai-xai
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Xai-xai", 
+                "province": "Gaza",
+                "volunteer": "Elisa Mite",
+                "agency": "UNFPA",
+                "photo": "image/volunteers/Elisa Mite_UNFPA_Xai Xai.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.658204797266137, -25.049867017944784 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Xai-xai", 
+                "province": "Gaza",
+                "volunteer": "Jose Tamele",
+                "agency": "WFP",
+                "photo": "image/volunteers/Jose Tamele_WFP_Xai-Xai.png"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.658204797266137, -25.049867017944784 ] }
+        }
+        /*{ 
+            "type": "Feature", 
+            "properties": { 
+                "district": " ", 
+                "province": " ",
+                "volunteer": " ",
+                "agency": " ",
+                "photo": "image/volunteers/.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [  ] }
+        }*/
+
+    ]
+}

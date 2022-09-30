@@ -1,0 +1,78 @@
+var volunteers = {
+    "type": "FeatureCollection",
+    "name": "volunteers",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        //Pemba
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Pemba", 
+                "province": "Cabo Delgado",
+                "volunteer": "Abdala Inaque",
+                "agency": "UNHCR",
+                "photo": "../image/volunteers/Abdala Inaque_UNHCR_Pemba.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 40.531081216382042, -13.019333050136201 ] }
+        },
+        //Maputo
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Abdul Rahimo",
+                "agency": "UNOCHA",
+                "photo": "../image/volunteers/Abdul Rahimo_UNOCHA_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342, -25.961702934293783 ] }
+        },
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Maputo", 
+                "province": "Maputo",
+                "volunteer": "Anand",
+                "agency": "UNICEF",
+                "photo": "../image/volunteers/Anand _UNICEF_Maputo.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 32.62458560766342, -25.961702934293783 ] }
+        },
+        //Nampula
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Nampula", 
+                "province": "Nampula",
+                "volunteer": "Abel Cossa",
+                "agency": "WFP",
+                "photo": "../image/volunteers/Abel Cossa_WFP_Nampula.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 39.262639826423751, -15.103445344263704 ] }
+        },
+        //Chimoio
+        { 
+            "type": "Feature", 
+            "properties": { 
+                "district": "Sofala", 
+                "province": "Manica",
+                "volunteer": "Aly Adamo",
+                "agency": "WFP",
+                "photo": "../image/volunteers/Aly Adamo_WFP_Chimoio.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [ 33.455891295881329, -19.128023967034046 ] }
+        }
+        /*{ 
+            "type": "Feature", 
+            "properties": { 
+                "district": " ", 
+                "province": " ",
+                "volunteer": " ",
+                "agency": " ",
+                "photo": "../image/volunteers/.jpg"
+            }, 
+            "geometry": { "type": "Point", "coordinates": [  ] }
+        }*/
+
+    ]
+}
