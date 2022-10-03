@@ -142,7 +142,7 @@ $(document).ready(function(){
 
 	volunteerMarkers.addLayer(volunteersLayer);
 
-	osm.setOpacity(0.1);
+	osm.setOpacity(0.05);
 
 	var map = L.map('vmap', {
 		//center: [-25.96666667,32.58333333],
