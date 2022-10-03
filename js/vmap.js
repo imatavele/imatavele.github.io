@@ -5,20 +5,19 @@ $(document).ready(function(){
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
 
-	/*var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox/light-v11', attribution: mbAttr}),
+	var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox/light-v11', attribution: mbAttr}),
 		streets  = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
 	var OpenTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
 	maxZoom: 17,
 	attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-	});*/
+	});
 	var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	});
-	osm.setOpacity(0.0);
-	/*var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-	});*/
+	});
 
 	var myStyle = {
 	"fillColor": "#fff",
@@ -31,7 +30,7 @@ $(document).ready(function(){
 	var districtStyle = {"color":"#000", "weight": 0.5,
 	"opacity": 0.5, "fillColor": "#fff","fillOpacity": 0.0};//color: #4287f5
 
-	var distritctLayer, volunteersLayer, infoAgencies = `<div class="info"><b>Volunteers by agency</b><br>`,
+	var districtLayer, volunteersLayer, infoAgencies = `<div class="info"><b>Volunteers by agency</b><br>`,
 	quickSummary = `<div class="info"><b>Quick Summary</b><br>`, infoDistricts = `<div class="info"><b>Volunteers by district</b><br>`;
 
 	var geojsonMarkerOptions = {
@@ -107,7 +106,6 @@ $(document).ready(function(){
 	});
 	//console.log(volunteerLayer);
     var volunteerMarkers = L.markerClusterGroup();
-	
 
 	function districtOnEachFeature(feature, layer) {
     // does this feature have a property named id, titular, identificacao, numero, area, benfeitorias and comentario
@@ -137,34 +135,37 @@ $(document).ready(function(){
     	}
 	}
 
-	distritctLayer = L.geoJson(districts, {
+	districtLayer = L.geoJson(districts, {
 		onEachFeature: districtOnEachFeature, 
 		style: districtStyle
 	});
 
 	volunteerMarkers.addLayer(volunteersLayer);
 
+	osm.setOpacity(0.1);
+
 	var map = L.map('vmap', {
 		//center: [-25.96666667,32.58333333],
 		center: [-18.6693182,35.52639008],
 		zoom: 5,//12
-		layers: [osm, distritctLayer, volunteerMarkers]
+		layers: [osm, districtLayer, volunteerMarkers]
 	});
+	
 
-	var baseLayers = {
-		//"Grayscale": grayscale,
+	/*var baseLayers = {
+		"Grayscale": grayscale,
 		"Streets": osm,
-		//"Open Topo Map": OpenTopoMap,
-		//"Esri World Imagery": Esri_WorldImagery
+		"Open Topo Map": OpenTopoMap,
+		"Esri World Imagery": Esri_WorldImagery
 	};
 
 	var overlays = {
 		"Volunteers": volunteerMarkers,
 		"Districts": distritctLayer
-	};
+	};*/
 
-	var layerControl = L.control.layers(baseLayers, overlays);
-	layerControl.addTo(map);
+	/*var layerControl = L.control.layers(baseLayers, overlays);
+	layerControl.addTo(map);*/
 	var scale = L.control.scale({position: 'bottomleft'});
 	scale.addTo(map);
 
@@ -311,7 +312,7 @@ $(document).ready(function(){
 						if(count > 0){
 							resetMap();
 							volunteerLayer.addTo(volunteerMarkers);
-							layerControl.addOverlay(volunteerMarkers, "Volunteers")
+							//layerControl.addOverlay(volunteerMarkers, "Volunteers")
 							volunteerMarkers.addTo(map);
 							map.setView([
 								volunteerMarkers.getBounds()._northEast.lat,
@@ -354,7 +355,7 @@ $(document).ready(function(){
 						if(count > 0){
 							resetMap();
 							volunteerLayer.addTo(volunteerMarkers);
-							layerControl.addOverlay(volunteerMarkers, "Volunteers")
+							//layerControl.addOverlay(volunteerMarkers, "Volunteers")
 							volunteerMarkers.addTo(map);
 							if(count == 1){
 								map.setView([
@@ -370,7 +371,6 @@ $(document).ready(function(){
 						}else{
 							console.log(count);
 						}
-						
 					}
 				});
 				break;
@@ -398,7 +398,7 @@ $(document).ready(function(){
 						if(count > 0){
 							resetMap();
 							volunteerLayer.addTo(volunteerMarkers);
-							layerControl.addOverlay(volunteerMarkers, "Volunteers")
+							//layerControl.addOverlay(volunteerMarkers, "Volunteers")
 							volunteerMarkers.addTo(map);
 							if(count == 1){
 								map.setView([
@@ -442,7 +442,7 @@ $(document).ready(function(){
 						if(count > 0){
 							resetMap();
 							volunteerLayer.addTo(volunteerMarkers);
-							layerControl.addOverlay(volunteerMarkers, "Volunteers")
+							//layerControl.addOverlay(volunteerMarkers, "Volunteers")
 							volunteerMarkers.addTo(map);
 							if(count == 1){
 								map.setView([
@@ -477,7 +477,7 @@ $(document).ready(function(){
 			});
 			resetMap();
 			volunteerLayer.addTo(volunteerMarkers);
-			layerControl.addOverlay(volunteerMarkers, "Volunteers");
+			//layerControl.addOverlay(volunteerMarkers, "Volunteers");
 			volunteerMarkers.addTo(map);
 			map.setView([-18.6693182,35.52639008], 5);
 			//document.getElementById("cs_btn").style.display = 'none';z
@@ -540,7 +540,7 @@ $(document).ready(function(){
 	function resetMap(){
 		if(map.hasLayer(volunteerMarkers)){
 			map.removeLayer(volunteerMarkers);
-			layerControl.removeLayer(volunteerMarkers);
+			//layerControl.removeLayer(volunteerMarkers);
 		}
 		volunteerMarkers = L.markerClusterGroup();
 	}
