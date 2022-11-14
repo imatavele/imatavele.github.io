@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.container, #spots, #city-spots{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.container{
+    flex-direction: row-reverse;
+}
+
+
+.spot{
+    width: 150px;
+    border: 0px solid rgba(0, 0, 0, 0.5);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-top-right-radius: 15px;
+    background-color: rgba(138, 43, 226, 0.5);
+    margin:5px 5px 0px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0px;
+    background-size: cover;
+}
+.spot span{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: large;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+
+.spotsA, .spotsB{
+    display: flex;
+    flex-direction: column;
+}
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+#gallery{
+    background-image: url(../img/thumbnails/galeria\ de\ arte.PNG);
+}
+#garden{
+    background-image: url(../img/thumbnails/jardim\ botanico.PNG);
+}
+#space{
+    background-image: url(../img/thumbnails/espaco\ em.PNG);
+}
+#wall1{
+    background-image: url(../img/thumbnails/mural\ bento.PNG);
+}
+#memorial{
+    background-image: url(../img/thumbnails/memorial.PNG);
+}
+#aquino{
+    background-image: url(../img/thumbnails/espaco\ aquino.PNG);
+}
+#wall2{
+    background-image: url(../img/thumbnails/mural\ malangatana.PNG);
+}
+#press{
+    background-image: url(../img/thumbnails/espaco\ imprensa.PNG);
+}
+#maputo-hotel{
+    background-image: url(../img/thumbnails/maputo-hotel.jpg);
+}
+#museu{
+    background-image: url(../img/thumbnails/museu_historia_natural.jpg);
+}
+#citylodge{
+    background-image: url(../img/thumbnails/citylodge.jpg);
+}
+#stayeasy{
+    background-image: url(../img/thumbnails/stayeasy.jpg);
+}
+#gloriahotel{
+    background-image: url(../img/thumbnails/gloriahotel.jpg);
+}
+#resotel{
+    background-image: url(../img/thumbnails/resotel.jpg);
+}
+#mpm{
+    background-image: url(../img/thumbnails/mpm.jpg);
+}
+#cfm{
+    background-image: url(../img/thumbnails/cfm.jpg);
+}
+#fortress{
+    background-image: url(../img/thumbnails/fortress.jpg);
+}
+#sideMenu{
+    display: flex;
+    flex-direction: column;
+}
+.menu-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-btn a{
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+}
+.current-spots{
+    background-color: rgb(34, 151, 122);
+    border: 0px solid black !important;
+}
+.popup-text{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    #spots, #city-spots{
+        flex-direction: column;
+    }
+    .spotsA, .spotsB{
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+    .spot{
+        height: 100px;
+        width: 100px;
+    }
+    #map{
+        height: calc(100% - 300px);
+    }
+}
