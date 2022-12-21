@@ -125,6 +125,7 @@ body{
     border-radius: 10px;
     border: 1px solid black;
     color: black;
+    font-family: Poppins !important;
 }
 .current-spots{
     background-color: rgb(34, 151, 122);
