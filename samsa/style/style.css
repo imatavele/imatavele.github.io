@@ -1,14 +1,9 @@
-@font-face {
-  font-family: Poppins;
-  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-}
-
 html, body {
     height: 100%;
     margin: 0;
 }
 body{
-  font-family: Poppins !important;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container, #spots, #city-spots{
@@ -124,7 +119,6 @@ body{
     border-radius: 10px;
     border: 1px solid black;
     color: black;
-    font-family: Poppins !important;
 }
 .current-spots{
     background-color: rgb(34, 151, 122);
