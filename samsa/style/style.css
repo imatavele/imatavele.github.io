@@ -6,8 +6,12 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: Poppins !important;
 }
+body{
+  font-family: Poppins !important;
+  font-style: italic;
+}
+
 .container, #spots, #city-spots{
     display: flex;
     justify-content: space-around;
